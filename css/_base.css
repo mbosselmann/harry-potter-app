@@ -11,7 +11,11 @@ HTML {
 main,
 header,
 aside,
-footer {
+footer,
+section,
+div,
+p,
+img {
   border: solid 2px black;
   padding: 10px;
 }
