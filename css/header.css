@@ -1,0 +1,8 @@
+@font-face {
+  font-family: HarryP;
+  src: url('harry-p.font');
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
