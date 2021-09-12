@@ -1,0 +1,28 @@
+.filter-container {
+  background-color: #202020;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.filter-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-title {
+  padding: 20px 0 0 20px;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.expand-filter-button {
+  background-color: #303030;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.expand-less-filter-button {
+  background-color: #481a1c;
+  border: none;
+  border-radius: 0 5px 0 0;
+}
