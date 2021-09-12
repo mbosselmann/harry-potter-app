@@ -24,6 +24,7 @@
 .expand-less-button {
   background-color: #481a1c;
   border: none;
+  transition-timing-function: ease-out;
 }
 
 .expand-more-img {
