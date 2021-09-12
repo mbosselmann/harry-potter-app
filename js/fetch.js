@@ -5,7 +5,7 @@ export function fetchHarryPotterAPI() {
     .then(response => response.json())
     .then(allData => {
       renderAllContent(allData)
-      console.table(allData)
+      // console.table(allData)
     })
     .catch(error => {
       console.log('Something went wrong!', error)
