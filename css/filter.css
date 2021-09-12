@@ -1,0 +1,100 @@
+.filter-container {
+  background-color: #202020;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.filter-container-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+}
+
+.filter-title {
+  padding: 20px 0 4px 20px;
+  font-size: 0.9rem;
+  margin: 0px;
+}
+
+.expand-filter-button {
+  background-color: #303030;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.expand-less-filter-button {
+  background-color: #fca237;
+  border: none;
+  border-radius: 0 5px 0 0;
+}
+
+.filter-section {
+  padding: 0 0 10px 0;
+}
+.filter-section-title {
+  padding: 20px 0 5px 20px;
+  font-size: 0.9rem;
+}
+
+.filter-list {
+  display: flex;
+  padding: 0 20px 0 20px;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.filter-gryffindor {
+  background: #5a1211;
+  padding: 5px 20px 5px 20px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.filter-ravenclaw {
+  background: #0e1a40;
+  padding: 5px 20px 5px 20px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.filter-hufflepuff {
+  background: #fca237;
+  padding: 5px 20px 5px 20px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.filter-slytherin {
+  background: #1a472a;
+  padding: 5px 20px 5px 20px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.filter-students {
+  background: #ab3912;
+  padding: 5px 25px 5px 25px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.filter-staff {
+  background: #481a1c;
+  padding: 5px 40px 5px 40px;
+  margin: 5px 0 10px 0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
