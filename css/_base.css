@@ -29,7 +29,6 @@ main {
 
 aside {
   grid-area: aside;
-  display: none;
 }
 
 body {
