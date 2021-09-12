@@ -34,7 +34,17 @@ export function renderAllContent(allData) {
     sectionTitle.textContent = allData.name + ' (' + allData.actor + ')'
     sectionHeader.appendChild(sectionTitle)
 
+    const expandMoreButtonEl = document.createElement('button')
+    expandMoreButtonEl.classList.add('expand-more-button')
+    sectionHeader.appendChild(expandMoreButtonEl)
+
+    const moreButtonImg = document.createElement('img')
+    moreButtonImg.setAttribute('src', '/images/expand-more.png')
+    moreButtonImg.classList.add('expand-more-img')
+    expandMoreButtonEl.appendChild(moreButtonImg)
+
     const sectionMainInformation = document.createElement('div')
+    sectionMainInformation.classList.add('section-content--hidden')
     characterSection.appendChild(sectionMainInformation)
 
     const mainInformationList = document.createElement('div')
@@ -93,6 +103,24 @@ export function renderAllContent(allData) {
       const wandLengthListEl = document.createElement('li')
       wandLengthListEl.textContent = 'Length: ' + length
       sideInfoList.appendChild(wandLengthListEl)
+    })
+
+    expandMoreButtonEl.addEventListener('click', () => {
+      if (
+        sectionMainInformation.classList.contains('section-content--hidden')
+      ) {
+        sectionMainInformation.classList.remove('section-content--hidden')
+        moreButtonImg.removeAttribute('src')
+        moreButtonImg.setAttribute('src', '/images/expand-less.png')
+        expandMoreButtonEl.classList.remove('expand-more-button')
+        expandMoreButtonEl.classList.add('expand-less-button')
+      } else {
+        sectionMainInformation.classList.add('section-content--hidden')
+        moreButtonImg.removeAttribute('src')
+        moreButtonImg.setAttribute('src', '/images/expand-more.png')
+        expandMoreButtonEl.classList.remove('expand-less-button')
+        expandMoreButtonEl.classList.add('expand-more-button')
+      }
     })
   })
 }
