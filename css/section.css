@@ -1,0 +1,44 @@
+.section-card {
+  background-color: #202020;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.section-header {
+  background-color: #252525;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+}
+
+.section-header-title {
+  padding: 10px 50px 10px 30px;
+  font-size: 1rem;
+  align-self: center;
+}
+
+.section-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 0px 0%;
+  border-radius: 5px 0 0 0;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.main-info-list,
+.wand-list {
+  list-style-type: none;
+  padding: 15px;
+  width: 50%;
+  font-size: 0.8rem;
+}
+
+.wand-list h3,
+.main-info-list h3 {
+  margin: 0 0 10px 0;
+}
